@@ -1,12 +1,26 @@
-# React + Vite
+# 🎬 Primeflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Primeflix é uma aplicação web desenvolvida em **React** que consome a API do [The Movie Database (TMDB)](https://www.themoviedb.org/). A plataforma permite ao usuário visualizar os filmes em cartaz, acessar detalhes dos filmes, assistir trailers, salvar favoritos e gerenciar seus filmes salvos.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Listagem dos filmes que estão em cartaz no momento
+- Página de detalhes do filme com:
+  - Título
+  - Imagem de capa
+  - Sinopse
+  - Avaliação (rating)
+  - Botão para assistir ao trailer no YouTube
+  - Botão para salvar o filme
+- Página "Meus Filmes", onde o usuário pode:
+  - Visualizar todos os filmes salvos
+  - Remover filmes da lista
+- Notificações para ações como salvar ou remover filmes (utilizando **React Toastify**)
 
-## Expanding the ESLint configuration
+## 🧪 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [ReactJS](https://reactjs.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [React Toastify](https://fkhadra.github.io/react-toastify/)
+- [Axios](https://axios-http.com/)
+- [TMDB API](https://www.themoviedb.org/documentation/api)
