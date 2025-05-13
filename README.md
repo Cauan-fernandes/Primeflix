@@ -24,3 +24,15 @@ Primeflix é uma aplicação web desenvolvida em **React** que consome a API do 
 - [React Toastify](https://fkhadra.github.io/react-toastify/)
 - [Axios](https://axios-http.com/)
 - [TMDB API](https://www.themoviedb.org/documentation/api)
+
+## 💾 Armazenamento Local
+
+Os filmes salvos são armazenados localmente no navegador (LocalStorage), permitindo que permaneçam salvos entre sessões.
+
+## ✨ Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
